@@ -11,4 +11,14 @@ Extract the archive into the ``checkpoints`` subfolder in this repository, so th
 
 *These instructions are taken from dataset_construction/Wave-U-Net-Pytorch/README.md*
 
-****
+**SGMSE Datasets**
+
+Training datasets are available [here](https://drive.google.com/drive/folders/18C3gyV-FvNuby-3GfJvr676MgSl4PJCn?usp=sharing)
+Extract the zip files to ``repair/sgmse/datasets``
+
+Evaluation datasets, along with the obtained results are available [here](https://drive.google.com/drive/folders/1Uhfy7u3NBZeP_TQcs-mvUzU14MXM1JPG?usp=sharing)
+
+**SGMSE Pretrained Models**
+
+Pretrained models may be downloaded [here](https://drive.google.com/drive/folders/15jORVCDG76O6MF3FoeuvYwFNNO7A7Ef-?usp=sharing)
+Extract the zip files to ``repair/sgmse/models``
