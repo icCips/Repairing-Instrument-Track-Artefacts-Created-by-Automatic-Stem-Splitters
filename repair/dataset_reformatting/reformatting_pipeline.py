@@ -12,12 +12,6 @@ from validate import validate
 # drums: 0
 # other: 3
 
-
-input = "/Volumes/Bank_1/FYP/Dataset/generated_mixes"
-dataset = "/Volumes/Bank_1/FYP/Dataset/sgmse_bass"
-_16kHz_dataset = "/Volumes/Bank_1/FYP/Dataset/sgmse_bass_16kHz_5s_chunks"
-type = "bass"
-
 def pipeline(input, dataset, _16kHz_dataset, type, sdr_flt=0):
 
     # Generate the dataset

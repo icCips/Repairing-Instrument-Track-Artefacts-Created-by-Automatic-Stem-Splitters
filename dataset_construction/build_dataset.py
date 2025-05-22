@@ -15,7 +15,7 @@ from Wave_U_Net_Pytorch.iterate import seperate_dataset
 
 dataset_path = "CMS_MixR_U"
 
-#download(dataset_path)
+download(dataset_path)
 
 extract_zip(dataset_path)
 

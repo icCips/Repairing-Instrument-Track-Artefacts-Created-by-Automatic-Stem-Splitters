@@ -22,3 +22,13 @@ Evaluation datasets, along with the obtained results are available [here](https:
 
 Pretrained models may be downloaded [here](https://drive.google.com/drive/folders/15jORVCDG76O6MF3FoeuvYwFNNO7A7Ef-?usp=sharing)
 Extract the zip files to ``repair/sgmse/models``
+
+**Execution**
+
+This repository contains three stages:
+
+- ``dataset_construction``: Constructs CMS-MixR-U
+- ``repair/dataset_reformatting``: Reformats CMS-MixR-U for use with SGMSE
+- ``repair/sgmse``: Training, inference and evaluation of repair models
+
+For information regarding the execution of each, refer to the ``Instructions.md`` files located in the respective sub-folders.
