@@ -15,9 +15,7 @@ from sgmse.sdes import SDERegistry
 from sgmse.backbones import BackboneRegistry
 from sgmse.util.inference import evaluate_model
 from sgmse.util.other import pad_spec, si_sdr
-from pesq import pesq
-from pystoi import stoi
-from torch_pesq import PesqLoss
+
 
 
 class ScoreModel(pl.LightningModule):
@@ -82,7 +80,7 @@ class ScoreModel(pl.LightningModule):
         self.sr = sr
         # Initialize PESQ loss if pesq_weight > 0.0
         if pesq_weight > 0.0:
-            self.pesq_loss = PesqLoss(1.0, sample_rate=sr).eval()
+            #self.pesq_loss = PesqLoss(1.0, sample_rate=sr).eval()
             for param in self.pesq_loss.parameters():
                 param.requires_grad = False
         self.save_hyperparameters(ignore=['no_wandb'])
